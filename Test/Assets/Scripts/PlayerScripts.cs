@@ -4,11 +4,7 @@ using System.Collections;
 public class PlayerScripts : MonoBehaviour {
 
 	public float jumpForece;
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
@@ -19,6 +15,6 @@ public class PlayerScripts : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		Application.LoadLevel (Application.loadedLevel);
+		Application.LoadLevel("GameOver");
 	}
 }

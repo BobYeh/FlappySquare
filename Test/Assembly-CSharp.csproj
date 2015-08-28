@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\GameOverScripts.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts.cs" />
+     <Compile Include="Assets\Scripts\SceneChangerScripts.cs" />
      <Compile Include="Assets\Scripts\Scores.cs" />
      <Compile Include="Assets\Scripts\SpawnerScripts.cs" />
      <Compile Include="Assets\Scripts\WallScripts.cs" />

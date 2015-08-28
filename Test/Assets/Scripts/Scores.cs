@@ -38,6 +38,11 @@ public class Scores : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		score += Time.deltaTime;
-		mText.text = "Score: "+score;
+		mText.text = "Score: "+(int)(score*100);
 	}
+
+	void OnDestroy(){
+		PlayerPrefs.SetFloat ("Score",score * 100);
+	}
+	
 }

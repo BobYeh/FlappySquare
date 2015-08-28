@@ -16,9 +16,4 @@ public class SpawnerScripts : MonoBehaviour {
 		}
 	
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
