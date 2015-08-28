@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerScripts.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerScripts.cs" Line="21" Column="51" />
+      <File FileName="..\Doteater\Assets\Scripts\Enemy.cs" Line="19" Column="56" />
+      <File FileName="..\Doteater\Assets\Scripts\Player.cs" Line="39" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
