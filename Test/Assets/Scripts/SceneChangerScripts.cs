@@ -18,7 +18,7 @@ public class SceneChangerScripts : MonoBehaviour {
 	{
 		GUIStyle customButton = new GUIStyle ("button");
 		customButton.fontSize = 20;
-		if(GUI.Button(new Rect(Screen.width/2-60,Screen.height-200,90,60),btnString,customButton))
+		if(GUI.Button(new Rect(Screen.width/2-60,Screen.height-150,90,60),btnString,customButton))
 		{
 			Application.LoadLevel(nextScene);
 		}
