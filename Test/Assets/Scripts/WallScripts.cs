@@ -9,7 +9,7 @@ public class WallScripts : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Destroy (gameObject, 5f);
+		Destroy (gameObject, 8f);
 	}
 	
 	// Update is called once per frame
